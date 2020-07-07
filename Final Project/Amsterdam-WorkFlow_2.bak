@@ -1,0 +1,2076 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>listings-details.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="listing_url" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="scrape_id" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="last_scraped" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="summary" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="space" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="description" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="experiences_offered" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="neighborhood_overview" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="notes" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="transit" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="access" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="interaction" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="house_rules" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="thumbnail_url" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="medium_url" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="picture_url" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="xl_picture_url" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_id" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_url" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_name" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_since" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_location" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_about" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_response_time" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_response_rate" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_acceptance_rate" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_is_superhost" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_thumbnail_url" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_picture_url" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_neighbourhood" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_listings_count" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_total_listings_count" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_verifications" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_has_profile_pic" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="host_identity_verified" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="street" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="neighbourhood" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="neighbourhood_cleansed" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="neighbourhood_group_cleansed" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="city" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="state" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="zipcode" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="market" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="smart_location" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="country_code" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="country" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="is_location_exact" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="property_type" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="room_type" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="accommodates" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="bathrooms" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="bedrooms" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="beds" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="bed_type" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="amenities" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="square_feet" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="price" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="weekly_price" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="monthly_price" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="security_deposit" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="cleaning_fee" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="guests_included" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="extra_people" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="minimum_nights" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="maximum_nights" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="minimum_minimum_nights" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="maximum_minimum_nights" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="minimum_maximum_nights" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="maximum_maximum_nights" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="minimum_nights_avg_ntm" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="maximum_nights_avg_ntm" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="calendar_updated" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="has_availability" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="availability_30" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="availability_60" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="availability_90" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="availability_365" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="calendar_last_scraped" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="number_of_reviews" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="number_of_reviews_ltm" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="first_review" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="last_review" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="review_scores_rating" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="review_scores_accuracy" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="review_scores_cleanliness" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="review_scores_checkin" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="review_scores_communication" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="review_scores_location" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="review_scores_value" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="requires_license" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="license" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="jurisdiction_names" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="instant_bookable" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="is_business_travel_ready" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="cancellation_policy" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="require_guest_profile_picture" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="require_guest_phone_verification" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="calculated_host_listings_count" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="calculated_host_listings_count_entire_homes" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="calculated_host_listings_count_private_rooms" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="calculated_host_listings_count_shared_rooms" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+            <Field name="reviews_per_month" size="254" source="File: C:\Users\PULI\Documents\infsys 6860 data integration\Altreyx\listings-details.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="id" selected="True" />
+            <SelectField field="name" selected="True" />
+            <SelectField field="host_name" selected="True" />
+            <SelectField field="host_since" selected="True" />
+            <SelectField field="street" selected="True" />
+            <SelectField field="neighbourhood_cleansed" selected="True" />
+            <SelectField field="latitude" selected="True" />
+            <SelectField field="longitude" selected="True" />
+            <SelectField field="property_type" selected="True" />
+            <SelectField field="room_type" selected="True" />
+            <SelectField field="accommodates" selected="True" />
+            <SelectField field="price" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="186" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>price</Field>
+          <RegExExpression value="\$" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>price</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>id_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="486" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="longitude" fieldY="latitude" />
+          <Mode>Double</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="URL" />
+          </Fields>
+          <Data>
+            <r>
+              <c>http://data.insideairbnb.com/the-netherlands/north-holland/amsterdam/2019-09-14/visualisations/neighbourhoods.geojson</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
+        <Position x="138" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <URLField>URL</URLField>
+          <OutputMode>String</OutputMode>
+          <CodePage>65001</CodePage>
+          <EncodeURLs value="True" />
+          <Headers>
+            <NameValues />
+            <Fields orderChanged="False">
+              <Field name="URL" selected="False" />
+              <Field name="*Unknown" selected="False" />
+            </Fields>
+          </Headers>
+          <Payload>
+            <HTTPAction>GET</HTTPAction>
+            <QueryStringBodyMode>Compose</QueryStringBodyMode>
+            <ComposeNameValues />
+            <ComposeFields orderChanged="False">
+              <Field name="URL" selected="False" />
+              <Field name="*Unknown" selected="False" />
+            </ComposeFields>
+          </Payload>
+          <UserName />
+          <Password />
+          <numConnections>2</numConnections>
+          <Timeout>600</Timeout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxConnectorEngine.dll" EngineDllEntryPoint="AlteryxDownload" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JSONParse.JSONParse">
+        <Position x="222" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JSON_Field>DownloadData</JSON_Field>
+          <IncludeInOutput value="False" />
+          <SingleField value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJSONParse" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="306" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[JSON_ValueString] != "FeatureCollection"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>JSON_ValueString</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-06 15:42:37</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>FeatureCollection</Operand>
+              <StartDate>2019-12-06 15:42:37</StartDate>
+              <EndDate>2019-12-06 15:42:37</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[JSON_ValueString] != "FeatureCollection"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="390" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>JSON_Name</Field>
+          <RegExExpression value="features\.(\d+)\.(.*)" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>JSON_Name</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="featureID" type="String" size="117" />
+            <Field field="Name" type="V_WString" size="1073741823" />
+          </ParseComplex>
+          <Match>
+            <Field>URL_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="474" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>Contains([JSON_Name],"properties")</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>Contains</Operator>
+            <Field>JSON_Name</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-06 15:49:11</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>properties</Operand>
+              <StartDate>2019-12-06 15:49:11</StartDate>
+              <EndDate>2019-12-06 15:49:11</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([JSON_Name],"properties")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="570" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([JSON_ValueString])</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>JSON_ValueString</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-06 15:50:57</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2019-12-06 15:50:57</StartDate>
+              <EndDate>2019-12-06 15:50:57</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([JSON_ValueString])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JSONBuild.JSONBuild">
+        <Position x="558" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name_Field>Name</Name_Field>
+          <StringValue_Field>JSON_ValueString</StringValue_Field>
+          <IntValue_Field>JSON_ValueInt</IntValue_Field>
+          <FloatValue_Field>JSON_ValueFloat</FloatValue_Field>
+          <BoolValue_Field>JSON_ValueBool</BoolValue_Field>
+          <GroupFields orderChanged="False">
+            <Field name="featureID" />
+          </GroupFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJSONBuild" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="642" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="JSON" selected="True" type="SpatialObj" size="536870911" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="714" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="featureID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="featureID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_URL" selected="True" input="Left_" />
+                <SelectField field="Left_DownloadHeaders" selected="True" input="Left_" />
+                <SelectField field="Left_JSON_ValueString" selected="True" rename="Neighbourhood" input="Left_" />
+                <SelectField field="Right_featureID" selected="True" rename="Right_featureID" input="Right_" />
+                <SelectField field="Right_JSON" selected="True" rename="Boundary" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="846" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#2">
+              <Field field="neighbourhood_cleansed" />
+            </JoinInfo>
+            <JoinInfo connection="#1">
+              <Field field="Neighbourhood" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#2_neighbourhood_cleansed" selected="False" />
+                <SelectField field="Input_#2_Centroid" selected="True" rename="AirbnbAccomodation" />
+                <SelectField field="Input_#1_URL" selected="False" />
+                <SelectField field="Input_#1_DownloadHeaders" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1014" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PULI\AppData\Local\Temp\Engine_6764_4bb8040adde14f8db88a3fba20f58bf3_\Engine_2748_079b3ee46e474ad3b371489b824dca8f_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>Latest:CloudMade</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="390" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[accommodates] = "2"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>accommodates</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-06 16:45:12</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2</Operand>
+              <StartDate>2019-12-06 16:45:12</StartDate>
+              <EndDate>2019-12-06 16:45:12</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[accommodates] = "2"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="930" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Neighbourhood" action="GroupBy" rename="Group By_Neighbourhood" />
+            <SummarizeField field="Neighbourhood" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1026" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Count" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Count - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="PlotlyCharting">
+        <Position x="1110" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ChartingFields>
+            <Traces json:Array="true" xmlns:json="http://james.newtonking.com/projects/json">
+              <type>bar</type>
+              <mode>markers</mode>
+              <name>&lt;br&gt;</name>
+              <orientation>v</orientation>
+              <xsrc>Group By_Neighbourhood</xsrc>
+              <ysrc>Count</ysrc>
+            </Traces>
+            <Layout>
+              <title>
+                <text>Number of Airbnb accomodations in each neighbourhood</text>
+              </title>
+              <font>
+                <family>sans-serif</family>
+              </font>
+              <autosize>false</autosize>
+              <width>700</width>
+              <height>849</height>
+              <showlegend>false</showlegend>
+              <hovermode>closest</hovermode>
+              <xaxis>
+                <range>-0.5</range>
+                <range>21.5</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>Neighbourhood</text>
+                </title>
+                <type>category</type>
+                <tickfont>
+                  <size>12</size>
+                </tickfont>
+                <nticks>0</nticks>
+              </xaxis>
+              <yaxis>
+                <range>0</range>
+                <range>2175.7894736842104</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>No of Accommodations</text>
+                </title>
+                <type>linear</type>
+              </yaxis>
+              <margin>
+                <pad>0</pad>
+                <t>100</t>
+                <b>80</b>
+                <l>80</l>
+                <r>80</r>
+              </margin>
+              <legend>
+                <font>
+                  <size>12</size>
+                </font>
+                <borderwidth>0</borderwidth>
+              </legend>
+            </Layout>
+          </ChartingFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1182" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PULI\AppData\Local\Temp\Engine_6764_4bb8040adde14f8db88a3fba20f58bf3_\Engine_2748_a7cd419712e940a78c7e155c1d6e003c_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="-6" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="latitude" />
+            <Field name="longitude" />
+          </Fields>
+          <Data>
+            <r>
+              <c>52.370216</c>
+              <c>4.895168</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="78" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="longitude" fieldY="latitude" />
+          <Mode>Double</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.TradeArea.TradeArea">
+        <Position x="198" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Centroid" includeOut="True" />
+          <Units units="Kilometers" />
+          <Radius_FromField value="False" />
+          <Radii>0-2, 2-4, 4-6, 6-8</Radii>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>0-2, 2-4, 4-6, 6-8 Kilometers</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxTradeArea" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialMatch.SpatialMatch">
+        <Position x="306" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Target SpatialObj="SpatialObject_TradeArea" />
+          <Universe SpatialObj="AirbnbAccomodation" />
+          <Method method="Intersects" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Matched">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Universe_latitude" selected="True" rename="Universe_latitude" input="Universe_" />
+                <SelectField field="Universe_longitude" selected="True" rename="Universe_longitude" input="Universe_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+          <IntersectPoly value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SpatialObject_TradeArea Where Target Intersects Universe AirbnbAccomodation</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialMatch" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="450" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[RadiusSize] = "0-2"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>RadiusSize</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-06 17:03:04</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2019-12-06 17:03:04</StartDate>
+              <EndDate>2019-12-06 17:03:04</EndDate>
+              <Operand>0-2</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[RadiusSize] = "0-2"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="450" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[RadiusSize] = "2-4"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>RadiusSize</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-06 17:03:38</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2-4</Operand>
+              <StartDate>2019-12-06 17:03:38</StartDate>
+              <EndDate>2019-12-06 17:03:38</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[RadiusSize] = "2-4"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="450" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[RadiusSize] = "4-6"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>RadiusSize</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-06 17:04:07</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2019-12-06 17:04:07</StartDate>
+              <EndDate>2019-12-06 17:04:07</EndDate>
+              <Operand>4-6</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[RadiusSize] = "4-6"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="450" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[RadiusSize] = "6-8"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>RadiusSize</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-06 17:04:32</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2019-12-06 17:04:32</StartDate>
+              <EndDate>2019-12-06 17:04:32</EndDate>
+              <Operand>6-8</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[RadiusSize] = "6-8"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="558" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="room_type" action="GroupBy" rename="Group By_room_type" />
+            <SummarizeField field="price" action="AvgNo0" rename="Average - Ignore 0's_price" />
+            <SummarizeField field="RadiusSize" action="GroupBy" rename="Group By_RadiusSize" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="558" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="room_type" action="GroupBy" rename="Group By_room_type" />
+            <SummarizeField field="price" action="AvgNo0" rename="Average - Ignore 0's_price" />
+            <SummarizeField field="RadiusSize" action="GroupBy" rename="Group By_RadiusSize" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="558" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="room_type" action="GroupBy" rename="Group By_room_type" />
+            <SummarizeField field="price" action="AvgNo0" rename="Average - Ignore 0's_price" />
+            <SummarizeField field="RadiusSize" action="GroupBy" rename="Group By_RadiusSize" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="558" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="room_type" action="GroupBy" rename="Group By_room_type" />
+            <SummarizeField field="price" action="AvgNo0" rename="Average - Ignore 0's_price" />
+            <SummarizeField field="RadiusSize" action="GroupBy" rename="Group By_RadiusSize" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="702" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1182" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Neighbourhood" action="GroupBy" rename="Group By_Neighbourhood" />
+            <SummarizeField field="room_type" action="GroupBy" rename="Group By_room_type" />
+            <SummarizeField field="price" action="AvgNo0" rename="Average - Ignore 0's_price" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1350" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Group By_room_type] = "Entire home/apt"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Group By_room_type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-06 18:23:33</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Entire home/apt</Operand>
+              <StartDate>2019-12-06 18:23:33</StartDate>
+              <EndDate>2019-12-06 18:23:33</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Group By_room_type] = "Entire home/apt"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1350" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Group By_room_type] = "Private room"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Group By_room_type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-06 18:23:58</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Private room</Operand>
+              <StartDate>2019-12-06 18:23:58</StartDate>
+              <EndDate>2019-12-06 18:23:58</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Group By_room_type] = "Private room"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1350" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Group By_room_type] = "Shared room"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Group By_room_type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-06 18:27:12</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Shared room</Operand>
+              <StartDate>2019-12-06 18:27:12</StartDate>
+              <EndDate>2019-12-06 18:27:12</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Group By_room_type] = "Shared room"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1350" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Group By_room_type] = "Hotel room"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Group By_room_type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-06 18:26:29</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Hotel room</Operand>
+              <StartDate>2019-12-06 18:26:29</StartDate>
+              <EndDate>2019-12-06 18:26:29</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Group By_room_type] = "Hotel room"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="PlotlyCharting">
+        <Position x="1518" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ChartingFields>
+            <Traces json:Array="true" xmlns:json="http://james.newtonking.com/projects/json">
+              <type>bar</type>
+              <mode>markers</mode>
+              <orientation>v</orientation>
+              <xsrc>Group By_Neighbourhood</xsrc>
+              <ysrc>Average - Ignore 0's_price</ysrc>
+            </Traces>
+            <Layout>
+              <title>
+                <text>&amp;nbsp;&lt;b&gt;Average Price of Entire Apartment/Home per each Neighbourhood&lt;/b&gt;&amp;nbsp;</text>
+              </title>
+              <font>
+                <family>sans-serif</family>
+              </font>
+              <autosize>false</autosize>
+              <width>700</width>
+              <height>849</height>
+              <showlegend>false</showlegend>
+              <hovermode>closest</hovermode>
+              <xaxis>
+                <range>-0.5</range>
+                <range>21.5</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>Neighbourhood</text>
+                </title>
+                <type>category</type>
+                <tickfont>
+                  <size>12</size>
+                </tickfont>
+                <nticks>0</nticks>
+              </xaxis>
+              <yaxis>
+                <range>0</range>
+                <range>171.8747936340221</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>Avg. Price</text>
+                </title>
+                <type>linear</type>
+              </yaxis>
+              <margin>
+                <pad>0</pad>
+                <t>100</t>
+                <b>80</b>
+                <l>80</l>
+                <r>80</r>
+              </margin>
+              <legend>
+                <font>
+                  <size>12</size>
+                </font>
+                <borderwidth>0</borderwidth>
+              </legend>
+            </Layout>
+          </ChartingFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="PlotlyCharting">
+        <Position x="1530" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ChartingFields>
+            <Traces json:Array="true" xmlns:json="http://james.newtonking.com/projects/json">
+              <type>bar</type>
+              <mode>markers</mode>
+              <orientation>v</orientation>
+              <xsrc>Group By_Neighbourhood</xsrc>
+              <ysrc>Average - Ignore 0's_price</ysrc>
+            </Traces>
+            <Layout>
+              <title>
+                <text>&amp;nbsp;&lt;b&gt;Average Price of Shared Room per each Neighbourhood&lt;/b&gt;&amp;nbsp;</text>
+              </title>
+              <font>
+                <family>sans-serif</family>
+              </font>
+              <autosize>false</autosize>
+              <width>700</width>
+              <height>849</height>
+              <showlegend>false</showlegend>
+              <hovermode>closest</hovermode>
+              <xaxis>
+                <range>7.9999981202052535</range>
+                <range>8.0442507430269767</range>
+                <autorange>false</autorange>
+                <title>
+                  <text>Neighbourhood</text>
+                </title>
+                <type>category</type>
+                <tickfont>
+                  <size>12</size>
+                </tickfont>
+                <nticks>0</nticks>
+              </xaxis>
+              <yaxis>
+                <range>0</range>
+                <range>194.73684210526315</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>Avg. Price</text>
+                </title>
+                <type>linear</type>
+              </yaxis>
+              <margin>
+                <pad>0</pad>
+                <t>100</t>
+                <b>80</b>
+                <l>80</l>
+                <r>80</r>
+              </margin>
+              <legend>
+                <font>
+                  <size>12</size>
+                </font>
+                <borderwidth>0</borderwidth>
+              </legend>
+              <dragmode>zoom</dragmode>
+            </Layout>
+          </ChartingFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="PlotlyCharting">
+        <Position x="1530" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ChartingFields>
+            <Traces json:Array="true" xmlns:json="http://james.newtonking.com/projects/json">
+              <type>bar</type>
+              <mode>markers</mode>
+              <orientation>v</orientation>
+              <xsrc>Group By_Neighbourhood</xsrc>
+              <ysrc>Average - Ignore 0's_price</ysrc>
+            </Traces>
+            <Layout>
+              <title>
+                <text>&amp;nbsp;&lt;b&gt;Average Price of Private Room per each Neighbourhood&lt;/b&gt;&amp;nbsp;</text>
+              </title>
+              <font>
+                <family>sans-serif</family>
+              </font>
+              <autosize>false</autosize>
+              <width>700</width>
+              <height>849</height>
+              <showlegend>false</showlegend>
+              <hovermode>closest</hovermode>
+              <xaxis>
+                <range>-0.5</range>
+                <range>21.5</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>Neighbourhood</text>
+                </title>
+                <type>category</type>
+                <tickfont>
+                  <size>12</size>
+                </tickfont>
+                <nticks>0</nticks>
+              </xaxis>
+              <yaxis>
+                <range>0</range>
+                <range>131.50395778364106</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>Avg. Price</text>
+                </title>
+                <type>linear</type>
+              </yaxis>
+              <margin>
+                <pad>0</pad>
+                <t>100</t>
+                <b>80</b>
+                <l>80</l>
+                <r>80</r>
+              </margin>
+              <legend>
+                <font>
+                  <size>12</size>
+                </font>
+                <borderwidth>0</borderwidth>
+              </legend>
+            </Layout>
+          </ChartingFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="PlotlyCharting">
+        <Position x="1530" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ChartingFields>
+            <Traces json:Array="true" xmlns:json="http://james.newtonking.com/projects/json">
+              <type>bar</type>
+              <mode>markers</mode>
+              <orientation>v</orientation>
+              <xsrc>Group By_Neighbourhood</xsrc>
+              <ysrc>Average - Ignore 0's_price</ysrc>
+            </Traces>
+            <Layout>
+              <title>
+                <text>&amp;nbsp;&lt;b&gt;Average Price of Hotel Room per each Neighbourhood&lt;/b&gt;&amp;nbsp;</text>
+              </title>
+              <font>
+                <family>sans-serif</family>
+              </font>
+              <autosize>false</autosize>
+              <width>700</width>
+              <height>849</height>
+              <showlegend>false</showlegend>
+              <hovermode>closest</hovermode>
+              <xaxis>
+                <range>-0.5</range>
+                <range>15.5</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>Neighbourhood</text>
+                </title>
+                <type>category</type>
+                <tickfont>
+                  <size>12</size>
+                </tickfont>
+                <nticks>0</nticks>
+              </xaxis>
+              <yaxis>
+                <range>0</range>
+                <range>306.0526315789474</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>Avg. Price</text>
+                </title>
+                <type>linear</type>
+              </yaxis>
+              <margin>
+                <pad>0</pad>
+                <t>100</t>
+                <b>80</b>
+                <l>80</l>
+                <r>80</r>
+              </margin>
+              <legend>
+                <font>
+                  <size>12</size>
+                </font>
+                <borderwidth>0</borderwidth>
+              </legend>
+            </Layout>
+          </ChartingFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1638" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PULI\AppData\Local\Temp\Engine_6764_4bb8040adde14f8db88a3fba20f58bf3_\Engine_2748_6a690b436b7a4d509eb0d7f0286cd03d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1638" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PULI\AppData\Local\Temp\Engine_6764_4bb8040adde14f8db88a3fba20f58bf3_\Engine_2748_c33c0e3dbf314811a97a6887d9b0f4f6_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1638" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PULI\AppData\Local\Temp\Engine_6764_4bb8040adde14f8db88a3fba20f58bf3_\Engine_2748_dda1b61526ce465490a187f1c890c072_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1638" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PULI\AppData\Local\Temp\Engine_6764_4bb8040adde14f8db88a3fba20f58bf3_\Engine_2748_af5676f89a9d4cb994e53b159f6282e8_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="798" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Group By_room_type" order="Ascending" />
+            <Field field="Average - Ignore 0's_price" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Group By_room_type - Ascending
+Average - Ignore 0's_price - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="882" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Skip</Mode>
+          <N>3</N>
+          <GroupFields orderChanged="False">
+            <Field name="Group By_room_type" />
+          </GroupFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Skip 1st 3</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="PlotlyCharting">
+        <Position x="978" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ChartingFields>
+            <Traces json:Array="true" xmlns:json="http://james.newtonking.com/projects/json">
+              <type>bar</type>
+              <mode>markers</mode>
+              <autocolorscale>true</autocolorscale>
+              <xsrc>Group By_room_type</xsrc>
+              <ysrc>Average - Ignore 0's_price</ysrc>
+              <zsrc>Group By_RadiusSize</zsrc>
+              <orientation>v</orientation>
+              <textposition>auto</textposition>
+              <marker>
+                <line>
+                  <width>0</width>
+                </line>
+                <color>#1f77b4</color>
+              </marker>
+              <showlegend>false</showlegend>
+              <textsrc>Group By_RadiusSize</textsrc>
+              <textfont>
+                <size>12</size>
+              </textfont>
+            </Traces>
+            <Layout>
+              <title>
+                <text>&lt;b&gt;Minimum price of different room types w.r.t region&lt;/b&gt;</text>
+              </title>
+              <font>
+                <family>sans-serif</family>
+              </font>
+              <autosize>false</autosize>
+              <width>700</width>
+              <height>849</height>
+              <showlegend>true</showlegend>
+              <hovermode>closest</hovermode>
+              <xaxis>
+                <range>-2</range>
+                <range>4</range>
+                <autorange>false</autorange>
+                <title>
+                  <text>Room Type</text>
+                </title>
+                <tickfont>
+                  <size>12</size>
+                </tickfont>
+                <nticks>0</nticks>
+                <type>category</type>
+              </xaxis>
+              <yaxis>
+                <range>-1.4316576791990414</range>
+                <range>136.68037965987605</range>
+                <autorange>false</autorange>
+                <title>
+                  <text>Minimum Price</text>
+                </title>
+                <type>linear</type>
+              </yaxis>
+              <legend>
+                <font>
+                  <size>12</size>
+                </font>
+                <borderwidth>0</borderwidth>
+                <orientation>v</orientation>
+              </legend>
+              <margin>
+                <pad>0</pad>
+                <t>100</t>
+                <b>80</b>
+                <l>80</l>
+                <r>80</r>
+              </margin>
+            </Layout>
+          </ChartingFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1074" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PULI\AppData\Local\Temp\Engine_6764_4bb8040adde14f8db88a3fba20f58bf3_\Engine_2748_e46eac0f0603453aa7cb7603dc0257c7_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PULI\AppData\Local\Temp\Engine_6764_4bb8040adde14f8db88a3fba20f58bf3_\Engine_2748_be4d47485c574493bf57e606293c655d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>Latest:CloudMade</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="False" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="14" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="26" Connection="Universe" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="True" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Matched" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Matched" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Matched" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Matched" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Matched" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="True" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="True" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="True" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="True" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="True" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="True" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="True" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Amsterdam-WorkFlow_2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
